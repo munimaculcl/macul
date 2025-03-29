@@ -1,139 +1,90 @@
-<!DOCTYPE html>
- <!DOCTYPE html>
- <html lang="es">
- <head>
-     <link href="./hiouoihuiohuio_files/bootstrap.css" rel="stylesheet">
-     <link href="./hiouoihuiohuio_files/site.css" rel="stylesheet">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <script src="./hiouoihuiohuio_files/modernizr-2.6.2.js.descarga"></script>
-     <script src="js/jquery-3.5.1.slim.min.js"></script>
-     <script src="js/popper.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Validación de Pago</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
- </head>
- 
-     <meta name="viewport" content="width=device-width">
-     <title>Validación Pago Web</title>
-     <link href="./Validación Pago Web_files/bootstrap.css" rel="stylesheet">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
- 
-     <link href="./Validación Pago Web_files/site.css" rel="stylesheet">
- 
-     <script src="./Validación Pago Web_files/modernizr-2.6.2.js.descarga"></script><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style><script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js"></script>
- 
- <style>[_nghost-ng-c2697620354]{font-family:Open Sans,sans-serif;color:#121212}</style></head>
- <body bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJMSU5LRURJTiI6ImRpc2FibGVkIiwiQ09ORklHIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjIuMC4yMCIsInNjb3JlIjoyMDAyMH1d" __processed_9f9ee9b2-86a7-4b3e-a510-2aeb25fef9fb__="true">
- 
-     <noscript>
-         <div class="container">
-             <div class="row">
-                 <br>
-                 <div class="col-md-1">
-                 </div>
-                 <div class="col-md-10">
-                     <div class="panel panel-danger">
-                         <div class="panel-heading">Javascript esta deshailitado</div>
-                         <div class="panel-body">
-                             <p>
-                                 Para que este web site funcione correctamente,
-                                 es necesario habilitar javascript en tu navegador.
- 
-                             </p>
-                             <p>
-                                 <a href="http://www.enable-javascript.com/" target="_blank">
-                                     En este enlace encontrarás instrucciones de
-                                     cómo habilitar javascript en tu navegador
-                                 </a>
-                             </p>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-1">
-                 </div>
-             </div>
-         </div>
-     </noscript>
- 
-     <div id="siJavascript" class="container-fluid">
+<meta name="viewport" content="width=device-width">
+<title>Validación Pago Web</title>
+<link href="./hiouoihuiohuio_files/bootstrap.css" rel="stylesheet">
+<link href="./hiouoihuiohuio_files/site.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="./hiouoihuiohuio_files/modernizr-2.6.2.js.descarga"></script>
+<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<style>[_nghost-ng-c2697620354]{font-family:Open Sans,sans-serif;color:#121212}</style></head>
+<body bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJMSU5LRURJTiI6ImRpc2FibGVkIiwiQ09ORklHIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjIuMC4yMCIsInNjb3JlIjoyMDAyMH1d" __processed_9f9ee9b2-86a7-4b3e-a510-2aeb25fef9fb__="true">
+
+ <noscript>
+     <div class="container">
          <div class="row">
- 
-             <div class="col-md-12" style="color: #0078c1; " >
-                 <h3><center>Validador Municipal de Macul</center></h3>
+             <br>
+             <div class="col-md-1">
              </div>
- 
- 
- 
- 
-     <div class="col-md-12" >
-         <div id="DatContribuyente" class="card" >
-             <div class="card-header" bis_skin_checked="1">Datos del Pago</div>
-             <div class="card-body" bis_skin_checked="1">
-                 <div class="row" bis_skin_checked="1">
-                     <div class="col-md-6" bis_skin_checked="1">TRIBUTO:&nbsp;&nbsp;<span class="text-success">PERMISOS DE CIRCULACIÓN</span></div>
- 
- 
-                         <div class="col-md-6" bis_skin_checked="1">PLACA:&nbsp;&nbsp;<span class="text-success">HPHW-49-6</span></div>
-                         <div class="col-md-6" bis_skin_checked="1">FECHA DE PAGO:&nbsp;&nbsp;<span class="text-success">20240326</span></div>
-                         <div class="col-md-6" bis_skin_checked="1">TIPO DE PAGO :&nbsp;&nbsp;<span class="text-success">PRIMERA CUOTA</span></div>
-                         <div class="col-md-6" bis_skin_checked="1">NOMBRE:&nbsp;&nbsp;<span class="text-success">ABRAHAM NOVACK SEPULVEDA</span></div>
-                         <div class="col-md-6" bis_skin_checked="1">VENCIMIENTO:&nbsp;&nbsp;<span class="text-success">2024/08/31</span></div>
-                         <div class="col-md-6" bis_skin_checked="1">COLOR:&nbsp;&nbsp;<span class="text-success">BLANCO</span></div>
-                         <div class="col-md-6" bis_skin_checked="1">MARCA:&nbsp;&nbsp;<span class="text-success">CHEVROLET</span></div>
-                         <div class="col-md-6" bis_skin_checked="1">MODELO:&nbsp;&nbsp;<span class="text-success">SAIL CLASSIC NB 1.4L LT</span></div>
-                         <div class="col-md-6" bis_skin_checked="1">TOTAL:&nbsp;&nbsp;<span class="text-success">$41.195.-</span></div>
-                         <div bis_skin_checked="1">
-                            PARA MAYOR INFORMACIÓN PUEDES CONSULTAR TU PLACA PATENTE EN NUESTRA WEB
-                             <a href="">
-                                 <img src="https://raw.githubusercontent.com/munimaculcl/munimaculcl.github.io/master/macul/f.png" width="100" height="100">
-                                 <img src="f.png" width="100" height="100">
- 
- 
- 
+             <div class="col-md-10">
+                 <div class="panel panel-danger">
+                     <div class="panel-heading">Javascript esta deshailitado</div>
+                     <div class="panel-body">
+                         <p>
+                             Para que este web site funcione correctamente,
+                             es necesario habilitar javascript en tu navegador.
+
+                         </p>
+                         <p>
+                             <a href="http://www.enable-javascript.com/" target="_blank">
+                                 En este enlace encontrarás instrucciones de
+                                 cómo habilitar javascript en tu navegador
                              </a>
-                         </div>
- 
- 
- 
- 
-                 </div>
- 
-             </div>
+                         </p>
                      </div>
- 
-     </div>
- 
- 
- 
+                 </div>
          </div>
      </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-     <script src="./hiouoihuiohuio_files/jquery-3.0.0.js.descarga"></script>
-     <script src="./hiouoihuiohuio_files/bootstrap.js.descarga"></script>
-     <script type="text/javascript">
-         $(document).ready(function () {
-             $("#siJavascript").removeClass("noJS");
-         });
-     </script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-     <script src="./Validación Pago Web_files/jquery-3.0.0.js.descarga"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
- 
-     <script src="./Validación Pago Web_files/bootstrap.js.descarga"></script>
- 
-     <script type="text/javascript">
-         $(document).ready(function () {
-             $("#siJavascript").removeClass("noJS");
-         });
- 
- 
- 
-     </script>
- 
- 
- 
- </body><app-ls-content ng-version="17.3.7"><template shadowrootmode="open"><!----><app-similar-tools _nghost-ng-c2697620354=""><!----><!----><!----></app-similar-tools><!----><!----><style>[_nghost-ng-c2697620354]{font-family:Open Sans,sans-serif;color:#121212}</style></template></app-ls-content></html>
+ </noscript>
+
+ <div id="siJavascript" class="container-fluid">
+     <div class="row">
+
+         <div class="col-md-12" style="color: #0078c1; " >
+             <h3><center>Validador Municipal de Macul</center></h3>
+         </div>
+
+
+
+
+ <div class="col-md-12" >
+     <div id="DatContribuyente" class="card" >
+         <div class="card-header" bis_skin_checked="1">Datos del Pago</div>
+         <div class="card-body" bis_skin_checked="1">
+             <div class="row" bis_skin_checked="1">
+                 <div class="col-md-6" bis_skin_checked="1">TRIBUTO:&nbsp;&nbsp;<span class="text-success">PERMISOS DE CIRCULACIÓN</span></div>
+
+
+                     <div class="col-md-6" bis_skin_checked="1">PLACA:&nbsp;&nbsp;<span class="text-success">HPHW-49-6</span></div>
+                     <div class="col-md-6" bis_skin_checked="1">FECHA DE PAGO:&nbsp;&nbsp;<span class="text-success">20240326</span></div>
+                     <div class="col-md-6" bis_skin_checked="1">TIPO DE PAGO :&nbsp;&nbsp;<span class="text-success">PRIMERA CUOTA</span></div>
+                     <div class="col-md-6" bis_skin_checked="1">NOMBRE:&nbsp;&nbsp;<span class="text-success">ABRAHAM NOVACK SEPULVEDA</span></div>
+                     <div class="col-md-6" bis_skin_checked="1">VENCIMIENTO:&nbsp;&nbsp;<span class="text-success">2024/08/31</span></div>
+                     <div class="col-md-6" bis_skin_checked="1">COLOR:&nbsp;&nbsp;<span class="text-success">BLANCO</span></div>
+                     <div class="col-md-6" bis_skin_checked="1">MARCA:&nbsp;&nbsp;<span class="text-success">CHEVROLET</span></div>
+                     <div class="col-md-6" bis_skin_checked="1">MODELO:&nbsp;&nbsp;<span class="text-success">SAIL CLASSIC NB 1.4L LT</span></div>
+                     <div class="col-md-6" bis_skin_checked="1">TOTAL:&nbsp;&nbsp;<span class="text-success">$41.195.-</span></div>
+                     <div bis_skin_checked="1">
+                        PARA MAYOR INFORMACIÓN PUEDES CONSULTAR TU PLACA PATENTE EN NUESTRA WEB
+                         <a href="">
+                             <img src="https://raw.githubusercontent.com/munimaculcl/munimaculcl.github.io/master/macul/f.png" width="100" height="100">
+
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./hiouoihuiohuio_files/jquery-3.0.0.js.descarga"></script>
+<script src="./hiouoihuiohuio_files/bootstrap.js.descarga"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#siJavascript").removeClass("noJS");
+    });
+</script>
+
+
+
+</body><app-ls-content ng-version="17.3.7"><template shadowrootmode="open"><!----><app-similar-tools _nghost-ng-c2697620354=""><!----><!----><!----></app-similar-tools><!----><!----><style>[_nghost-ng-c2697620354]{font-family:Open Sans,sans-serif;color:#121212}</style></template></app-ls-content></html>
